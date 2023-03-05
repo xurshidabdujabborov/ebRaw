@@ -1,0 +1,35 @@
+.Shoping {
+  width: 100%;
+  background: #f3f3f3;
+  padding: 100px 0px;
+}
+.Shoping .card {
+  padding: 20px 50px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin: 0px 30px;
+}
+.Shoping .card:hover {
+  cursor: pointer;
+  transition: .30s;
+  transform: scale(1.1);
+  background: #ffffff;
+  box-shadow: 0px 0px 54px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+.Shoping .card img {
+  padding: 15px;
+  background: #e5e5e5;
+}
+.Shoping .card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  color: #333333;
+  margin-top: 10px;
+}
+@media(max-width: 900px){
+  .Shoping .card{
+    margin: 20px 0px;
+  }
+}

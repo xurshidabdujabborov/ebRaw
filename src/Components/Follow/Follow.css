@@ -1,0 +1,26 @@
+.Follow{
+    width: 100%;
+    padding: 100px 0px;
+    background: #F3F3F3;
+}
+.Follow .text{
+    text-align: center;
+}
+.Follow .text h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    color: black;
+}
+.Follow .box{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.Follow .box img{
+    width: 100%;
+}
+.Follow .box img:hover{
+    cursor: pointer;
+    transition: 1s;
+}
